@@ -1,0 +1,41 @@
+{
+	"name": "docker-svelte",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "serve ./build",
+		"test": "jest"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@babel/preset-env": "^7.23.5",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-node": "^1.3.1",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.27.4",
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/svelte": "^4.0.5",
+		"@testing-library/user-event": "^14.5.1",
+		"animejs": "^3.2.1",
+		"babel-jest": "^29.7.0",
+		"babel-plugin-transform-vite-meta-env": "^1.0.3",
+		"jest": "^26.6.3",
+		"jest-transform-stub": "^2.0.0",
+		"serve": "^14.2.1",
+		"svelte": "^4.2.7",
+		"svelte-jester": "^1.8.2",
+		"vite": "^4.4.2"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"testEnvironment": "node",
+		"transform": {
+			"node_modules/variables/.+\\.(j|t)sx?$": "ts-jest"
+		},
+		"transformIgnorePatterns": [
+			"node_modules/(?!variables/.*)"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "transform": {
+        "^.+\\.js$": "babel-jest",
+        "^.+\\.svelte$": ["jest-transform-stub", "svelte-preprocess"],
+        "@testing-library/svelte/.*": "babel-jest"
+    },
+    "moduleFileExtensions": ["svelte", "js", "test.js"],
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"],
+    "transformIgnorePatterns": [
+        "node_modules/(?!(svelte))"
+    ]
+}
