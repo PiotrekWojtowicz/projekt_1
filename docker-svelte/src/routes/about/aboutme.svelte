@@ -15,7 +15,7 @@
 
 <section id="aboutMeSection" class="d-flex justify-content-center align-items-center vh-100">
     <div class="w-75">
-        <h1 class="w-100 d-flex justify-content-center py-2">O mnie</h1>
+        <h1 class="w-100 d-flex justify-content-center py-2 animate__animated animate__headShake">O mnie</h1>
         <span>{content}</span>
     </div>
 </section>

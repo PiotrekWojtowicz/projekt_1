@@ -37,6 +37,10 @@
     a:active{
         background-color: black!important;
     }
+
+    img{
+        height:200px!important;
+    }
 </style>
 
 <section id="projectSection" class="d-flex justify-content-center align-items-center vh-100">
@@ -44,7 +48,7 @@
         <h1 class="w-100 d-flex justify-content-center py-3">Moje projekty</h1>
         <div class="container text-center">
             <div class="row g-2">
-                <div class="col-sm-6">
+                <div class="col-sm-6 animate__animated animate__fadeInLeft">
                     <div class="p-3 my-5 d-flex justify-content-center align-items-center">
                         <div class="card" style="width: 18rem;">
                             <img src="./shell.png" class="card-img-top" alt="computer shell">
@@ -56,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 animate__animated animate__fadeInRight">
                     <div class="p-3 my-5 d-flex justify-content-center align-items-center">
                         <div class="card" style="width: 18rem;">
                             <img src="./quizz.png" class="card-img-top" alt="quiz web application">
@@ -68,8 +72,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="p-3 my-5 d-flex justify-content-center align-items-center">
+                <div class="col-sm-6 animate__animated animate__fadeInLeft">
+                    <div class="p-3 my-5 d-flex justify-content-center align-items-center ">
                         <div class="card" style="width: 18rem;">
                             <img src="./aloc.jpeg" class="card-img-top" alt="memory allocator">
                             <div class="card-body">
@@ -80,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 animate__animated animate__fadeInRight">
                     <div class="p-3 my-5 d-flex justify-content-center align-items-center">
                         <div class="card" style="width: 18rem;">
                             <img src="./algo.jpg" class="card-img-top" alt="algorithm jpg">

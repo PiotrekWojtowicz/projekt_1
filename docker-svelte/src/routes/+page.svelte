@@ -135,7 +135,7 @@
             opacity:1
         },-150).add({
             targets: '.bubble3',
-            width:'46.5em',
+            width:'47em',
             height:80,
             duration: 600,
             opacity:1
